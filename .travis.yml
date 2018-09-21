@@ -1,4 +1,8 @@
 sudo: required
+cache:
+  directories:
+    - vendor
+
 services:
   - docker
 before_install:
