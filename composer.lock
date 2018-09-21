@@ -247,12 +247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CaoJiayuan/laravel-api.git",
-                "reference": "f27a53620d508e2d2d874414db26e49d8e8e56d6"
+                "reference": "2ee183ae74fc65b9e55dd1fc07b42ad6c092bfb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CaoJiayuan/laravel-api/zipball/f27a53620d508e2d2d874414db26e49d8e8e56d6",
-                "reference": "f27a53620d508e2d2d874414db26e49d8e8e56d6",
+                "url": "https://api.github.com/repos/CaoJiayuan/laravel-api/zipball/2ee183ae74fc65b9e55dd1fc07b42ad6c092bfb1",
+                "reference": "2ee183ae74fc65b9e55dd1fc07b42ad6c092bfb1",
                 "shasum": ""
             },
             "require": {

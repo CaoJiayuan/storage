@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use Barryvdh\Cors\HandleCors;
+use CaoJiayuan\LaravelApi\Signature\Middleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -61,5 +62,6 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'sign' => Middleware::class,
     ];
 }

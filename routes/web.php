@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('upload', 'FileController@upload');
+Route::post('upload', 'FileController@upload')->middleware('sign');
