@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/0x01301c74/php-fpm-slim:latest
+FROM cjy632258/php-fpm-slim:latest
 
 COPY . /var/www
 RUN apk add --update --no-cache nginx gettext
